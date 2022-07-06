@@ -1,9 +1,6 @@
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
-</style>
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-</style>
+
 
 * {
     margin: 0;
@@ -16,11 +13,14 @@
     font-family: 'Black Han Sans', sans-serif; 
     font-size: 10px;
   }
+
+  nav{ 
+    background-color: greenyellow;
+  }
   .nav-container{
+    padding: 1rem 1rem;
     display: flex; 
     justify-content: space-between; 
-    padding-left: 10px; 
-    background-color: greenyellow;
     align-items: center;
 }
   .nav-contact{
@@ -28,3 +28,11 @@
     background: none;
     font-family: inherit;
 }
+
+@media all and (min-width:1024px) {
+  .inner{
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
+
