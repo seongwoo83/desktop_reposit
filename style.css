@@ -7,27 +7,52 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
   html {
     /* font-family: 'Noto Sans KR', sans-serif; */
     font-family: 'Black Han Sans', sans-serif; 
     font-size: 10px;
   }
-
-  nav{ 
-    background-color: greenyellow;
+  .inner{
+    padding: 0 1.5rem;
   }
   .nav-container{
-    padding: 1rem 1rem;
+    padding: 1rem 0;
     display: flex; 
     justify-content: space-between; 
     align-items: center;
 }
+  .nav-title{
+    font-size: 3rem;
+    font-weight: 500;
+}
   .nav-contact{
+    font-size: 2.5rem;
     border: none; 
     background: none;
     font-family: inherit;
 }
+main{
+  margin-top: 1.5rem;
+}
+  .category-title{
+    font-size: 3.5rem;
+    font-weight: 500;
+  }
+  .category-item{
+    margin-right: -3px;
+    width: 25%;
+    height: 5rem;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.6rem;
+  }
+
+  .category-item:hover{
+    color: darkgreen;
+    cursor: pointer;
+  }
+
 
 @media all and (min-width:1024px) {
   .inner{
